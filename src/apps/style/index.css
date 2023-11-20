@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Varela Round";
+  @apply bg-gray-100;
+}
+
+.navbar.active {
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  color: white;
+}
+
+.navbar.active:hover {
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
